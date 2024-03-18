@@ -1,27 +1,25 @@
 mat-toolbar {
-    background: #004a9f;
-    color: white;
+    background: #102c57;
+    color: #f8f0e5;
   }
   
   mat-sidenav {
     margin: 16px;
     width: 240px;
     border-right: none;
-    background: #002b5c;
-    color: white;
+    background: #102c57;
+    color: #f8f0e5;
     border-radius: 10px;
     padding: 16px;
     text-align: center;
   }
   
   .content {
-    height: calc(100vh - 130px);
+    height: calc(100vh - 100px);
     border-radius: 10px;
     margin: 16px;
     margin-left: 32px;
-  
     padding: 16px;
-  
     overflow: auto;
   }
   
@@ -35,7 +33,7 @@ mat-toolbar {
     align-items: center;
     justify-content: flex-start;
     font-size: 1rem;
-    color: #ffffff !important;
+    color: #f8f0e5 !important;
     margin-top: 10px;
     mat-icon {
       margin-right: 8px;

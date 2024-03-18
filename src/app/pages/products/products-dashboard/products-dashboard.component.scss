@@ -1,0 +1,29 @@
+.search-input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 16px;
+}
+.on{
+    background-color: green;
+    color: #ffffff;
+    font-size: 12px;
+    height: 30px;
+    width: 30px;
+    border-radius: 18px;
+    padding: 5px;
+}
+.off{
+    background-color: red;
+    color: #ffffff;
+    font-size: 12px;
+    height: 30px;
+    width: 30px;
+    border-radius: 18px;
+    padding: 5px;
+
+}
+.product-card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
