@@ -13,6 +13,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatMenuModule } from '@angular/material/menu';
 import {MatBadgeModule} from '@angular/material/badge';
+import { LoginModule } from './pages/login/login.module';
+import { DashboardModule } from './pages/dashboard/dashboard.module';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import {MatBadgeModule} from '@angular/material/badge';
     MatIconModule,
     MatDividerModule,
     MatMenuModule,
-    MatBadgeModule
+    MatBadgeModule,
+    LoginModule,
+    DashboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
