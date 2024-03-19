@@ -22,7 +22,7 @@ export class ProductsDashboardComponent {
   ]
 
   navigateToProduct(){
-    this.route.navigateByUrl('allproducts/product')
+    this.route.navigateByUrl('dashboard/product')
   }
 
   
